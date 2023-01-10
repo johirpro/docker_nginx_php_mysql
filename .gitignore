@@ -1,0 +1,6 @@
+# Ignore files related to environment variable keys
+.env
+
+# Ignore log files
+logs/mysql
+logs/nginx
