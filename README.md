@@ -6,6 +6,16 @@ For Additional container please browse to specific branches
 
 <!--Memecache -->
 
+**How to Use**
+1. `cd <to the roor directory>` 
+2. `Rename the 'example.env' file to '.env' file and change any required configuration like DB Name, Username, Password etc`    
+3. `Run command: > docker-compose build`  
+4. `Run command: > docker-compose up`  
+5. `From browser: browse '127.0.0.1'`
+6. `For PHPMyAdmin: browse '127.0.0.1:8080' or For Adminer: browse '127.0.0.1:8081'`
+7. `For composer run command: > docker-compose run composer`
+
+
 ## Useful Nginx images
 -  [`latest`, `1.23`](https://hub.docker.com/_/nginx)  
 -  [`stable`, `1.22`](https://hub.docker.com/_/nginx)  
