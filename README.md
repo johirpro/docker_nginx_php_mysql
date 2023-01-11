@@ -1,6 +1,6 @@
-# Docker Nginx PHP MySQL
+# Docker Nginx MySQL PHP
 
-Master branch is containing Nginx PHP MySQL Composer PHPMyAdmin Adminer
+Master branch is containing Nginx, MySQL, PHP, Composer, PHPMyAdmin, and Adminer.
 
 For Additional container please browse to specific branches
 
