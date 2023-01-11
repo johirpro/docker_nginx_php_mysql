@@ -41,7 +41,7 @@ FROM php:7.4-fpm
 
 ## Useful MySQL images
 - [`latest`](https://hub.docker.com/layers/library/mysql/latest/images/sha256-cfddf275c8b1ae1583c0f6afb4899d4dbe14111a6462699559a1f4dc8f4d5f6e), [`8.0`](https://hub.docker.com/layers/library/mysql/8.0/images/sha256-cfddf275c8b1ae1583c0f6afb4899d4dbe14111a6462699559a1f4dc8f4d5f6e)
-- [5.7](https://hub.docker.com/layers/library/mysql/5.7/images/sha256-bd0fb5a175fc225ce9c2c4357c0f532bda1413e0b8555a157770f92daa5a89e0), [`5.7.40`](https://hub.docker.com/layers/library/mysql/5.7.40/images/sha256-bd0fb5a175fc225ce9c2c4357c0f532bda1413e0b8555a157770f92daa5a89e0)  
+- [`5.7`](https://hub.docker.com/layers/library/mysql/5.7/images/sha256-bd0fb5a175fc225ce9c2c4357c0f532bda1413e0b8555a157770f92daa5a89e0), [`5.7.40`](https://hub.docker.com/layers/library/mysql/5.7.40/images/sha256-bd0fb5a175fc225ce9c2c4357c0f532bda1413e0b8555a157770f92daa5a89e0)  
 
 Example
 ```dockerfile
