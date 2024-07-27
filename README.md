@@ -7,13 +7,23 @@ For Additional container please browse to specific branches
 <!--Memecache -->
 
 **How to Use**
+***Option 1: Docker Command***
 1. `cd <to the roor directory>` 
 2. `Rename the 'example.env' file to '.env' file and change any required configuration like DB Name, Username, Password etc`    
-3. `Run command: > docker-compose build`  
-4. `Run command: > docker-compose up`  
+3. `Run command: > docker compose build`  
+4. `Run command: > docker compose up`  
 5. `From browser: browse '127.0.0.1'`
 6. `For PHPMyAdmin: browse '127.0.0.1:8080' or For Adminer: browse '127.0.0.1:8081'`
-7. `For composer run command: > docker-compose run composer`
+7. `For composer run command: > docker compose run composer`
+
+***Option 2: Make Command***
+1. `cd <to the roor directory>` 
+2. `Rename the 'example.env' file to '.env' file and change any required configuration like DB Name, Username, Password etc`    
+3. `Run command: > make build`  
+4. `Run command: > make up`  
+5. `From browser: browse '127.0.0.1'`
+6. `For PHPMyAdmin: browse '127.0.0.1:8080' or For Adminer: browse '127.0.0.1:8081'`
+7. `For composer run command: > docker compose run composer`
 
 
 ## Useful Nginx images
@@ -36,7 +46,7 @@ FROM nginx:latest
 
 Example
 ```dockerfile
-FROM php:7.4-fpm
+FROM php:8.1-fpm
 ```
 
 ## Useful MySQL images
@@ -45,5 +55,5 @@ FROM php:7.4-fpm
 
 Example
 ```dockerfile
-FROM mysql:5.7.40-fpm
+FROM mysql:8.4
 ```
