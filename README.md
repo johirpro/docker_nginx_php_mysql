@@ -6,7 +6,7 @@ For Additional container please browse to specific branches
 
 <!--Memecache -->
 
-**How to Use**
+**How to Use**    
 ***Option 1: Docker Command***
 1. `cd <to the roor directory>` 
 2. `Rename the 'example.env' file to '.env' file and change any required configuration like DB Name, Username, Password etc`    
