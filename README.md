@@ -7,24 +7,23 @@ For Additional container please browse to specific branches
 <!--Memecache -->
 
 **How to Use**    
-***Option 1: Docker Command***
+***Option 1: Make Command***
 1. `cd <to the roor directory>` 
 2. `Rename the 'example.env' file to '.env' file and change any required configuration like DB Name, Username, Password etc`    
-3. `Run command: > docker compose build`  
-4. `Run command: > docker compose up`  
+3. `Run command: > make build`
+4. `Run command: > make up`
 5. `From browser: browse '127.0.0.1'`
-6. `For PHPMyAdmin: browse '127.0.0.1:8080' or For Adminer: browse '127.0.0.1:8081'`
+6. `For PHPMyAdmin: browse '127.0.0.1:8081' or For Adminer: browse '127.0.0.1:8082'`
 7. `For composer run command: > docker compose run composer`
 
-***Option 2: Make Command***
+***Option 2: Docker Command***
 1. `cd <to the roor directory>` 
 2. `Rename the 'example.env' file to '.env' file and change any required configuration like DB Name, Username, Password etc`    
-3. `Run command: > make build`  
-4. `Run command: > make up`  
+3. `Run command: > docker compose build`
+4. `Run command: > docker compose up`
 5. `From browser: browse '127.0.0.1'`
-6. `For PHPMyAdmin: browse '127.0.0.1:8080' or For Adminer: browse '127.0.0.1:8081'`
+6. `For PHPMyAdmin: browse '127.0.0.1:8081' or For Adminer: browse '127.0.0.1:8082'`
 7. `For composer run command: > docker compose run composer`
-
 
 ## Useful Nginx images
 -  [`latest`, `1.23`](https://hub.docker.com/_/nginx)  
@@ -36,7 +35,6 @@ Example
 FROM nginx:latest
 ```
 
-
 ## Useful PHP images
 -  [`latest`](https://hub.docker.com/layers/library/php/latest/images/sha256-87ecd40a269e50eda37bf634802d84efa206ea68e2cbd71fb7c470416eb2908b?)
 - [`8.2-fpm`](https://hub.docker.com/layers/library/php/8.2-fpm/images/sha256-6c6cb6cf5c673dd4802a18963b2e60e529c7fb09cd08bd9e068ae27f238a65f8)  
@@ -46,7 +44,7 @@ FROM nginx:latest
 
 Example
 ```dockerfile
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 ```
 
 ## Useful MySQL images
