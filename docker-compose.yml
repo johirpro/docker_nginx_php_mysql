@@ -17,6 +17,7 @@ services:
     volumes:
       - ${PROJECT_PATH}:/app
       - ./logs/php:/var/log/php
+    working_dir: /app
       
   mysql:
     image: mysql:8.4
